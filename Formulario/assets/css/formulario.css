@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    font-size: 40px;
+    color: #6805aa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 67px;
+}
+#info{
+    font-size: 20px;
+    color: #69477c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:108px;
+}
+fieldset{
+    border:0;
+}
+.grupo{
+    font-size: 17px;
+    color: #614770;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+#nome{
+    display: block;
+    flex-direction: column;
+    margin-right: 20px;
+    height: 24px;
+    width: 230px;
+    border: 1px solid #6e567c;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-left: -5px;
+}
+#email{
+    display: block;
+    flex-direction: column;
+    margin-right: 20px;
+    height: 24px;
+    width: 230px;
+    border: 1px solid #6e567c;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+.campo{
+    font-size: 19px;
+    color: #69477c;   
+    margin-bottom: 5px;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.campo input{
+    margin-top: 10px;
+}
+#sobrenome strong, #sobrenome{
+    display: block;
+    flex-direction: column;
+    height: 24px;
+    width: 220px;
+    border: 1px solid #6e567c;
+
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+body{
+  justify-content: center;
+  font-family: sans-serif;
+  margin-left: 36%;
+  margin-top: 2%;
+  background-color: #f0f8ff;
+}
+.campo select, option{
+    border: 1px solid #6e567c;
+    height: 30px;
+    width: 100px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #614770;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+select{
+    margin-left: 5px;
+}
+.tecnologias{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border: 1px solid #6e567c;
+    font-size: 17px;
+}
+.gg{
+    font-size: 19px;
+    margin-left: -5px;
+}
+.gg2{
+    margin-top: -23px;
+}
+textarea{
+    height: 100px;
+    width: 470px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border: 1px solid #6e567c;
+    margin-top: 5px;
+}
+button{
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border: 1px solid #6e567c;
+    height: 33px;
+    width: 120px;
+    margin-left: 190px;
+    font-size: 19px;
+    color: #fff;
+    background-color: #1d034d;
+}
+.gg3{
+    margin-left: -5px;
+}
+button:hover{
+    height: 37px;
+    width: 123px;
+    background-color: #864cf0;
+}
