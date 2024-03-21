@@ -1,0 +1,170 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #000;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 170px;
+}
+.container{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+.p_title{
+    font-size: 30px;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+.p_desc{
+    font-size: 30px;
+    margin-top: 5px;
+    color: #fff;
+}
+#imagem
+{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+
+}
+.img_geral{
+    display: flex;
+    justify-content: center; 
+}  
+#geral{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 1700px;
+    
+}  
+.geral_desc{
+    color: #4b4a4a;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 70px;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+.pp{
+    margin-left: 160px;
+    margin-top: none;
+}
+.banner {
+    background-image:url('../imagens/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+  
+.banner .container{
+    border-bottom: 2px solid #fff;
+}
+section .container{
+    background-color: #bebdbd;
+}
+#feitos{
+    display: flex;
+    justify-content: center;
+}
+.feitos_title{
+    color: #252525;
+    font-size: 22px;
+    margin-left: 345px;
+}
+.feitos_listas{
+    color: #4b4a4a;    
+}
+.feitos_listas .listas {
+    margin-left: 700px;
+}
+.first-content {	
+	height: auto;
+	border:1px solid #fff;
+	border-radius: 5px;	
+	display: flex;
+	margin: auto;
+	color: #fff;
+    margin-top: 40px;
+}
+.first-content img {
+	margin: 5px;
+	border-radius: 5px;
+    height: 300px;
+}
+.contentdd{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer .container{
+    background-color:#bebdbd ;
+}
+.geral_wedhet{
+    color:#050000;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+}
+.geral_wedhet a{
+    text-decoration: none;
+    color: #0c2ff5;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.footer_copy {
+    display: flex;
+    border-top: 1px solid #2c2c2c;
+    padding: 5px;
+    margin-top: 20px;
+    width: 1700px;
+    justify-content: center;
+}
+.copy_copy {
+    color: #2c2c2c;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.copy_title{
+    color: #000000;
+}
+.copy_by{
+    color: #2c2c2c;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.copy_quant{
+    color: #000000;
+}
+.feitos_desc{
+    margin-top: 40px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left:270px;
+    margin-right: 160px;
+}
+.geraltt{
+    justify-content: center;
+    display: flex;
+}
+.contente a{
+    text-decoration: none;
+}
