@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+header{
+    height: 100px;
+    background-color: #000;
+    color: white;
+}
+.header{
+    max-width: 1600px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+.menu{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul, .menu li{
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+}
+.menu li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    border-bottom: 5px solid #000;
+}
+.menu li a:hover,
+.menu .active a{
+    border-bottom: 5px solid #b28756;
+    color: #ccc;
+}
+
+
+.banner{
+    background-color: #333;
+    height: calc(100vh - 100px);
+    background-image: url('../images/bg.jpg');
+    background-size:cover;
+    background-position: bottom;
+    overflow:hidden;
+}
+.banner .sliders{
+    width: 1000vw;
+    height: 100%;
+    
+}
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0,0 ,0 , 0.8)
+    
+}
+.banner .slidearea{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;}
+    .banner h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .banner h1 span{
+        color: #b28756;
+    }
+    .banner h2{
+        text-transform: uppercase;
+        margin-top: 17px;
+    
+    }
+    .banner a{
+        display: block;
+        background-color: #b28756;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 11px;
+        text-decoration: none;
+        padding: 10px 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+    .banner .sliders-pointers{
+        width: 100vw;
+        height:30px;
+        margin-top: -80px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .pointer{
+        width: 20px;;
+        height: 20px;
+        border: 2px solid #b28756;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .banner .pointer.active{
+        background-color: #b28756;
+    }
+    .default{
+    
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+    .default .section-title, .section-desc{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;   
+    }
+    .default .section-title{
+        font-size: 25px;
+        color: #000;
+    }
+    .default .section-desc{
+        font-size: 13px;
+        color: #ccc;
+        margin-top: 13px;
+        margin-bottom: 40px;
+
+    }
+    .default .section-body{
+        margin: auto;
+        max-width: 1600px;
+        min-height: 100px;
+    }
+
+    .default.light{
+    background-color: #f7f7f7;
+    }
+    .default.light .section-title{
+        color:#000;
+    }
+    .default.dark{
+        background-color: #000;
+    }
+    .default.dark .section-title{
+        color:#fff;
+    }
+    .default.dark .section-body{
+        color: #fff;
+    }
+
+/* CSS DE AREAS ESPECIFICAS*/
+.section-about-us{
+    display: flex;
+}
+.section-about-us--left{
+    flex: 1;
+    text-align: justify;
+}
+.section-about-us--rigth{
+    width: 900px;
+    text-align: center;
+    margin-left: -130px;
+    
+    
+}
+.section-about-us--rigth img{
+    width: 550px;
+    box-shadow: 0px 5px 10px #333;
+}
+.botton{
+        display: inline-block;
+        background-color: #b28756;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 11px;
+        text-decoration: none;
+        padding: 10px 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+}
+
+
+.default.dark .section-body{
+    display: flex;
+}
+.default.dark .service{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+.default.dark .service:first-child{
+    border-left: 1px solid #333;
+}
+.default.dark .service h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+.default.dark .service p{
+    font-size: 13px;
+    color: #999;
+    margin-top: 10px;
+}
+
+
+.section-projects{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.section-projects--filters ul, .section-projects--filters li {
+    list-style: none;
+}
+.section-projects--filters{
+    border-radius: 1px solid #333;
+    background-color: #dbdbdb;
+    border-radius: 30px;
+    display: inline-block;
+    border: 1px solid #bebebe;
+    
+}
+
+.section-projects--filters li{
+    text-transform: uppercase;
+    font-size:13px;
+    padding: 20px;  
+    border-left: 1px solid #bebebe;
+    display:inline-block;
+    border-bottom: 4px solid #dbdbdb ;
+}
+
+.section-projects--filters li:hover{
+    border-bottom: 4px solid #b28756;
+    display: inline-block;
+    cursor: pointer;
+}
+.section-projects--filters li.active{
+    border-bottom: 4px solid #b28756;
+}
+.section-projects--photos{
+width: 100vw;
+max-width: 1140px;
+margin-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.section-projects--photo{
+    width: 280px;
+}
+.section-projects--photo-area{
+    margin-top: 10px;
+    width: 260px;
+    height: 160px;
+}
+.section-projects--photo-area img{
+    width: inherit;
+    height: inherit;
+}
+.section-projects--photo-info{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+.section-projects--photo-area:hover .section-projects--photo-info{
+    display: flex;
+}
+.section-projects--photos a{
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color:#b28756;
+    color: #fff;
+    padding: 14px 33px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.bg-team{
+    background-image:url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+}
+.section-area-team{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-body-team .sliders{
+    width: 1000vw;
+    height: 100%;
+    
+}
+.section-body-team .slide{
+    width: 280px;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.section-body-team .slidearea{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000;
+    padding: 30px;
+}
+
+.section-body-team{
+    overflow: hidden;
+    max-width:890px;
+    margin: auto;
+}
+.section-area-team .sliders-pointers{
+    width: 100vw;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-area-team .pointer{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #b28756;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.section-area-team .pointer.active{
+    background-color: #b28756;
+}
+.section-team-avatar{
+    width: 150px;
+    height: auto;
+}
+.section-team-name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.section-team-role{
+    color:#999 ;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.section-team-social{
+    display: flex;
+    margin-top: 20px;
+}
+.section-team-social a{
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+.section-team-social a:hover{
+    background-color:#b28756 ;
+}
+.slide{
+    border-radius: 7px;
+}
